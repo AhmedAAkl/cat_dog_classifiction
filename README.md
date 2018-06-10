@@ -9,6 +9,7 @@ The model validation accuracy nearly equal 89%
 
 #Tools for improving CNN performance
 The following techniques are employed to imporve performance of CNN.
+
 Train
 
 1. Data augmentation

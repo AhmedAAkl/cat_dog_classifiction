@@ -16,9 +16,11 @@ The number of train-data is increased to 5 times by means of
 Random rotation : each image is rotated by random degree.
 Random shift : each image is randomly shifted by a value.
 Zero-centered normalization : a pixel value is subtracted by (PIXEL_DEPTH/2) and divided by PIXEL_DEPTH.
+
 2. Parameter initializers
 Weight initializer : xaiver initializer
 Bias initializer : constant (zero) initializer
+
 3. Batch normalization
 All convolution/fully-connected layers use batch normalization.
 

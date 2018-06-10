@@ -7,8 +7,9 @@ The convolutional layers use a filter size 3 × 3 and pooling layer use 2 ×  2 
 
 The model validation accuracy nearly equal 89%
 
-Tools for improving CNN performance
+#Tools for improving CNN performance
 The following techniques are employed to imporve performance of CNN.
+Train
 
 1. Data augmentation
 The number of train-data is increased to 5 times by means of

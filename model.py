@@ -9,7 +9,6 @@ from keras.callbacks import EarlyStopping, ModelCheckpoint
 from keras import backend as K
 K.set_image_dim_ordering('th')
 import time
-
 from numpy.random import seed
 
 # source of trian and validation dataset
@@ -18,17 +17,13 @@ valid_data_dir = ""
 
 # output directory to save model ouput weights
 output_dir = ""        
-    
-
-
 
 def create_model():
     model = Sequential()
     model.add(Conv2D(64, (3, 3), input_shape=(3, 72, 72),padding='same'))
     model.add(Activation('relu'))
     model.add(MaxPooling2D(pool_size=(2, 2)))
-    
-    
+ 
     model.add(Conv2D(128, (3, 3),padding='same'))
     model.add(Activation('relu'))
     model.add(MaxPooling2D(pool_size=(2, 2)))
